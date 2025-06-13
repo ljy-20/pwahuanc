@@ -1,4 +1,5 @@
 <script setup>
+import Marquee from './components/Marquee.vue'
 import { ref } from 'vue'
 
 const imageUrl = ref('https://picsum.photos/id/1/200/300')
@@ -17,6 +18,7 @@ const refreshImage = () => {
       <button @click="refreshImage">刷新图片</button>
     </p>
     <p>请尝试刷新页面或离线访问，观察图片是否被缓存。</p>
+     <Marquee name="欢迎来到 Joy 游戏体验世界！" :speed="60" />
   </div>
 </template>
 

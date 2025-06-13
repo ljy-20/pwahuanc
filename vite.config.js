@@ -13,8 +13,8 @@ export default defineConfig({
         enabled: true
       },
       manifest: {
-        name: 'My Awesome App',
-        short_name: 'MyApp',
+        name: '🟠 My Awesome App',
+        short_name: '🟠 MyApp',
         description: 'My Awesome Description',
         theme_color: '#ffffff',
         icons: [
